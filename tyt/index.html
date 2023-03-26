@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EpicentrRemont</title>
+  </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+  <body>
+    <div class="container">
+      <div class="header">
+        <a href="#" class="header__link">
+          <img
+            class="header__logo"
+            src="img/images.png"
+            alt="logo"
+            class="logo"
+          />
+        </a>
+        <img
+          class="header__logo1"
+          src="img/db78346e812e5c37bb32efc1fda64a5f49a84f3c.jpeg"
+          alt="logo"
+          class="logo"
+        />
+      </div>
+    </div>
+    <div class="container">
+      <iframe
+        class="main__form"
+        src="https://docs.google.com/forms/d/e/1FAIpQLSc5rIRC3V3uqZNY3Bixh2SdxVs3K7G2nhxExl3x2rBBuFQPHQ/viewform?embedded=true"
+        frameborder="0"
+        marginheight="0"
+        marginwidth="0"
+        >Загрузка…</iframe
+      >
+    </div>
+  </body>
+  <script>
+    $(document).ready(function () {
+      $("form").submit(function () {
+        alert("Вашу форму було успішно надіслано.");
+      });
+    });
+  </script>
+</html>
